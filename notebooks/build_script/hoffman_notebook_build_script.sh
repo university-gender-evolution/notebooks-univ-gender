@@ -19,6 +19,6 @@ echo "Now lets reinstall the package with the latest version"
 
 load module python/3.4
 
-python setup.py install --user
+python $HOME/notebooks_gender_univ/py-university-gender-dynamics-pkg/setup.py install --user
 
 
