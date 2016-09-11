@@ -1,6 +1,6 @@
 #!/bin/bash
 
-
+cd ~/
 module load python/3.4
 mkdir -p $HOME/.local/share/jupyter
 mkdir -p $HOME/.local/lib/python3.4/site-packages
