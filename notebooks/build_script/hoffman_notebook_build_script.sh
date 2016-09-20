@@ -19,7 +19,8 @@ echo "Now lets reinstall the package with the latest version"
 
 module load python/3.4
 
-python3 $HOME/notebooks_gender_univ/py-university-gender-dynamics-pkg/setup.py install --force --user 
+cd $HOME/py-university-gender-dynamics-pkg
+python3 setup.py install --force --user 
 
 echo "Now I will update the permissions on these directories to allow other users to access them"
 
