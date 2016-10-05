@@ -17,8 +17,6 @@ git pull origin master
 
 echo "Now lets reinstall the package with the latest version"
 
-module load python/3.4
-
 cd $HOME/py-university-gender-dynamics-pkg
 python3 setup.py install --force --user 
 
