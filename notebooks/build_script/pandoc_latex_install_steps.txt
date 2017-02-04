@@ -1,0 +1,25 @@
+
+Load haskell stack from github https://github.com/commercialhaskell/stack/releases/download/v1.2.0/stack-1.2.0-linux-x86_64-gmp4.tar.gz
+
+make sure to download the gmp4 included version.
+
+unzip it tar xvzf stack-XXX
+
+Then updated the .bashrc to include the new path where stack in installed. 
+
+run `source ~/.bashrc
+
+Then cd to the directory where pandoc is installed
+
+run `stack setup`
+
+run `stack install`
+
+Next install texlive. Install to the ~/.local/bin directory
+
+wget http://mirror.ctan.org/systems/texlive/tlnet/install-tl-unx.tar.gz
+
+run ./install-tl and set the paths to be in the local directory instead of root.
+
+update the directory list to reflect local directory instead of root.
+
